@@ -40,16 +40,8 @@ with col1:
                             locationmode="ISO-3",
                             scope="world",
                             range_color=(0, 1),
-                            title="Probability of War",
-                            height=9000)
-                # gapminder = px.data.gapminder()
-                # px.choropleth(full_df,
-                #             locations="code",
-                #             color="prob",
-                #             hover_name="country",
-                #             animation_frame="year",
-                #             color_continuous_scale="Plasma",
-                #             height=9000)
+                            title="Probability of War")
+
     fig.update_layout(
     autosize=True,
     paper_bgcolor='#c29972',
