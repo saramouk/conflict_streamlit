@@ -48,7 +48,7 @@ with col1:
     height=400,
     paper_bgcolor='#c29972',
     plot_bgcolor='#c29972' ,
-    geo=dict(bgcolor= '#c29972', showframe=False, projection_scale=1, framewidth=0.5, ataxis_gridwidth=20),
+    geo=dict(bgcolor= '#c29972', showframe=False, projection_scale=1, framewidth=0.5, lataxis_gridwidth=20),
     margin = dict(
                         l=0,
                         r=0,
