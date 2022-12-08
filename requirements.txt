@@ -46,6 +46,7 @@ lazy-object-proxy==1.8.0
 MarkupSafe==2.1.1
 matplotlib==3.6.2
 matplotlib-inline==0.1.6
+plotly==5.11.0
 mccabe==0.7.0
 mistune==2.0.4
 nbclassic==0.4.8
