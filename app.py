@@ -127,9 +127,7 @@ with col6:
                 title=go.layout.Title(
                     text=f"Sentiment Analysis for {country}"
                 ),
-                autosize=False,
-                width=1150,
-                height=400,
+                autosize=True
             )
             fig.update_layout(yaxis_autorange = "reversed")
             return fig
