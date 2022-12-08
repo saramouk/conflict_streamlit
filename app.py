@@ -43,7 +43,9 @@ with col1:
                             title="Probability of War")
 
     fig.update_layout(
-    autosize=True,
+    autosize=False,
+    width=700,
+    height=400,
     paper_bgcolor='#c29972',
     plot_bgcolor='#c29972' ,
     geo=dict(bgcolor= '#c29972', showframe=False, projection_scale=1),
@@ -127,7 +129,9 @@ with col6:
                 title=go.layout.Title(
                     text=f"Sentiment Analysis for {country}"
                 ),
-                autosize=True
+                autosize=False,
+                width=400,
+                height=400,
             )
             fig.update_layout(yaxis_autorange = "reversed")
             return fig
