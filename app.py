@@ -130,8 +130,8 @@ with col6:
                     text=f"Sentiment Analysis for {country}"
                 ),
                 autosize=False,
-                width=400,
-                height=400,
+                width=592,
+                height=451,
             )
             fig.update_layout(yaxis_autorange = "reversed")
             return fig
