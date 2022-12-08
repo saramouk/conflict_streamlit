@@ -44,7 +44,7 @@ with col1:
 
     fig.update_layout(
     autosize=False,
-    width=700,
+    width=1000,
     height=400,
     paper_bgcolor='#c29972',
     plot_bgcolor='#c29972' ,
