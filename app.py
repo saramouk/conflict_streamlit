@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from css import get_css
 import plotly.express as px
 
-
+#TITLE
 st.markdown(get_css(), unsafe_allow_html=True)
 st.header("World Overview")
 
@@ -20,16 +20,12 @@ full_df = df[["country", "year", "prob", "code"]]
 
 features_used = df.drop(columns=["Unnamed: 0", "target", "country", "year", "prob", "code"])
 feature_list = features_used.columns
-# list_of_edited = [f"Column {i}: {x}" for i, x  in enumerate(feature_list)]
-# st.write(", \n ".join(x for x in list_of_edited))
 
 feature_definition_df = pd.read_csv("feature_definition.csv")
 
 col1, col2 = st.columns([6, 1])
 
 #ANIMATION
-# if animate:
-    #SLIDER
 with col1:
     data = full_df
     fig = px.choropleth(full_df,
@@ -70,7 +66,6 @@ with col2:
     st.metric("Corruption Perception Index", "0.43", "0.2%")
 
 #Choose Country
-
 col3, col4 = st.columns([1, 1])
 col5, col6 = st.columns([1,1])
 
